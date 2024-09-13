@@ -34,3 +34,7 @@
 /JotForm/obj/Release/JotForm.csproj.AssemblyReference.cache
 /JotForm/bin/Debug/JotForm.dll
 /JotForm/bin/Debug/JotForm.pdb
+/JotForm/bin/Debug/Newtonsoft.Json.dll
+/JotForm/bin/Debug/Newtonsoft.Json.xml
+/JotFormTest/bin/Debug/Newtonsoft.Json.dll
+/JotFormTest/bin/Debug/Newtonsoft.Json.xml
