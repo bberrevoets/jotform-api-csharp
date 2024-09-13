@@ -12,10 +12,11 @@ namespace JotFormTest
     {
         static void Main(string[] args)
         {
-            var client = new JotForm.APIClient("YOUR API CODE");
+            var client = new JotForm.APIClient("a9c138bd24aebec1609de79eb9c52c27");
             // If your account is in Eu Protected mode, set euProtected to true.
             // client.euProtected = false; 
             // Print new submission id
+            client.euProtected = true;
             var user = client.getUser();
 
             var submissions = client.getSubmissions()["content"];
